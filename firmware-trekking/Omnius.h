@@ -20,10 +20,17 @@ motor::motor(int pinA, int pinB)
 
 void motor::frente ()
 {
+   
+  digitalWrite(_pinA, LOW);
+  digitalWrite(_pinB, HIGH);
 
+}
 }
 
 void motor::re ()
 {
+  digitalWrite(_pinA, HIGH);
+  digitalWrite(_pinB, LOW);
 
 }
+
