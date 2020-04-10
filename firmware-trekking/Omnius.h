@@ -25,7 +25,7 @@ void motor::frente ()
   digitalWrite(_pinB, HIGH);
 
 }
-}
+
 
 void motor::re ()
 {
