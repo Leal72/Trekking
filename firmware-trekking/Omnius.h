@@ -35,11 +35,15 @@ void Motor::iniciar(int pinA, int pinB)
 
 void Motor::frente ()
 {
+  digitalWrite(_pinA, LOW);
+  digitalWrite(_pinB, HIGH);
 
 }
 
 void Motor::re ()
 {
+  digitalWrite(_pinA, HIGH);
+  digitalWrite(_pinB, LOW);
 
 }
 
